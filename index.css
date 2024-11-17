@@ -5,16 +5,26 @@
 body {
   background-color: #ffffff;
 }
+a {
+  color: #000000;
+}
+main {
+  margin-bottom: 2rem;
+}
+.intro {
+  color: #3eaaf4;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 900;
+}
 .navlist {
   display: flex;
   list-style: none;
   align-items: center;
-  justify-content: center;
-  gap: 8rem;
+  justify-content: space-between;
+  width: 80%;
   cursor: pointer;
-}
-.hoverList:hover {
-  border-bottom: 2px solid #4d0202;
+  margin: 0 auto;
 }
 .navlist-desc {
   display: flex;
@@ -31,4 +41,74 @@ body {
   border: none;
   border-radius: 0.5rem;
   padding: 1rem 2rem;
+}
+
+#body {
+  width: 80%;
+  margin: 0 auto;
+}
+.about-me {
+  font-size: x-large;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.about-wrapper {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem auto;
+  justify-content: center;
+}
+.profile-card {
+  background-color: #3eaaf4;
+  color: #ffffff;
+  padding: 1.5rem;
+}
+.work-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.about-me-card {
+  padding: 3rem 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.about-me-card p {
+  font-size: larger;
+  font-weight: bold;
+}
+.about-me-card a {
+  font-size: smaller;
+}
+.card-2 {
+  border-bottom: 4px solid #000000;
+}
+.card-3 {
+  border-bottom: 4px solid #ec7404;
+}
+.card-4 {
+  border-bottom: 4px solid #3eaaf4;
+}
+.card-5 {
+  border-bottom: 4px solid #ec0419;
+}
+.contact {
+  margin-top: 2rem;
+  font-size: xx-large;
+  text-align: center;
+  color: #3eaaf4;
+  text-decoration: underline;
+}
+.contact-description {
+  font-size: x-large;
+  text-align: center;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.social-icons {
+  width: 4.5rem;
+  height: 4.5rem;
 }
